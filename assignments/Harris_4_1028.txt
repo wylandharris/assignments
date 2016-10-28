@@ -1,0 +1,9 @@
+1) %s is used to print variables that store strings while %d prints varibles that store decimal values.
+
+2)It makes it easier to print out longline
+
+3a) Prints out "Reflection and contemplation are life skills."
+
+3b) Prints the first char of the set "R"
+
+3c) asks for an input
