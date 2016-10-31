@@ -7,6 +7,7 @@ int main () {
 	int secret;
 	puts("What would you like your shift to be???");
 	scanf("%d",&shift);
+	shift = shift - 1;
 	fp = fopen("text.txt","r");
 	while(1) {
 			c = fgetc(fp);

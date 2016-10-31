@@ -7,7 +7,7 @@ int main () {
 	int secret;
 	puts("What would you like your shift to be???");
 	scanf("%d",&shift);
-	fp = fopen("text.txt","r");
+	fp = fopen("Undo_text.txt","r");
 	while(1) {
 			c = fgetc(fp);
 		if(feof(fp)) {
