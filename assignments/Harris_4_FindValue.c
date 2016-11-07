@@ -18,7 +18,7 @@ int main () {
 			if (j == c){
 				secret = j + shift;
 				if (secret > 122) {
-					secret = secret % 122 + 97;
+					secret = secret % 122 + 96;
 				}
 				printf("%c", secret);
 			}
@@ -27,7 +27,7 @@ int main () {
 			if (j == c){
 				secret = j + shift;
 				if (secret > 90) {
-					secret = secret % 90 + 65;
+					secret = secret % 90 + 64;
 				}
 				printf("%c", secret);
 			}
