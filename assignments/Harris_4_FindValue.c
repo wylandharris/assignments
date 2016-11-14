@@ -1,37 +1,23 @@
 #include <stdio.h>
+
 int main () {
 	FILE *fp;
-	int c;
 	int j;
-	int shift;
+	int c;
 	int secret;
-	puts("What would you like your shift to be???");
-	scanf("%d",&shift);
-	shift = shift - 1;
-	fp = fopen("text.txt","r");
+	fp = fopen("text.txt", "r");
+	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
 	while(1) {
-			c = fgetc(fp);
-		if(feof(fp)) {
+		c = fgetc(fp);
+		if(feof(fp)){
 			break;
 		}
-		for(j = 97; j < 123; j++){
-			if (j == c){
-				secret = j + shift;
-				if (secret > 122) {
-					secret = secret % 122 + 96;
-				}
+		for (j = 0; j < 256; j++){
+			if(j==c){
+				secret = j + 10;
 				printf("%c", secret);
 			}
 		}
-		for(j = 65; j < 91; j++){
-			if (j == c){
-				secret = j + shift;
-				if (secret > 90) {
-					secret = secret % 90 + 64;
-				}
-				printf("%c", secret);
-			}
-		}
-	}
 	printf("\n");
+	}
 }
