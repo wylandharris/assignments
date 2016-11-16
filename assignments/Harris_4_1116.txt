@@ -1,0 +1,23 @@
+1) What is PGP?
+	PGP is pretty good privacy, a type of encryption used in emails.
+2) What is PGP used for?
+	When they receiver receives it, they decrypt it using their own 
+	private key. Since encrypting an entire message can take a long time, 
+	PGP uses a faster encryption algorithm to encrypt the message and then 
+	uses the public key to encrypt the shorter key that was used to encrypt 
+	the entire message.
+3) How do public keys and private keys work?
+	A private key can decrypt a public key and a public key can decrypt a 
+	private key. So for it to work, someone must encrypt their file with
+	the other persons public key and send it to rhe second person who has 
+	their private key.
+4) What does RSA stand for? Why?
+	Rivest, Shamir, and Adleman, these are the inventors of RSA.
+5) What is the web of trust? Why is it important?
+	In cryptography, a web of trust is a concept used in PGP, GnuPG, and 
+	other OpenPGP-compatible systems to establish the authenticity of the 
+	binding between a public key and its owner.
+6)What is OpenPGP? Why is it important?
+	It is a standard that defines formats for encryption keys and messages. 
+	PGP is a trademarked term used by Symantec Corporation for their 
+	OpenPGP-compliant products, such as Symantec PGP Command Line.
