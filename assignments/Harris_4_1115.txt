@@ -1,0 +1,5 @@
+How well does your brute force decryptor work?
+	My brute force works, but it there is not a dictionary to find the decrypt on its own. That means that the user has to find the right one.
+What are its advantages? Disadvantages?
+	The advantages for mine is that it cannot mess up because it simply prints the possibilites
+	The disadvantes for it were that it did not include the dictionary to choose the correct shift.

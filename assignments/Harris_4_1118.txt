@@ -1,0 +1,32 @@
+﻿1) What is big data?
+	A large amount of data that one computer cannot handle by itself
+2) What are 3 current goals of big data?
+	a) To be able to convert big data into small data for everyday access.
+	b) To understand the tendencies and predict what will happen.
+	c) To collect and keep it organized and safe.
+3) What makes data 'Big'?
+	Data can be big because there are huge quantities that are held in 
+	servers.
+4) What are the ways / programs people use to work with bug data?
+	Algorithms and Programs
+5) Give examples - what are R, Hadoop, Strata? What are they good for?
+	Threy are programming languages that are geared more towards 
+	processing big data.
+6) Ehat is a very common / emergubg big data focus?
+	NSA
+7) What are novel big data approaches - such as K-means?
+	A big data approach is seperating the data into clumps, allowing the analysis of this dtata to be easier
+	K-means can do this by creating a visual representation of the data
+8)How are Bayesian methods used with big data?
+	There are used with big data to fing a probability, revealing patterns and tendencies in the data
+9) What advantages / problems does natural language processing afford/pose for big data?
+	some advantages are that naturakl languages better understand human languages, which makes it easier for databases.
+	Some problems is that copmuters are much faster than people, so one outpaces the other
+10) What is latent semantic analysis? 
+	Latent Samatic Analysis is used in natural languages to analyze two seperate documents and to find a relationship between them
+11) What are webscraping and data mining?
+	Webscrapinig is the process of "Scrapping" data from websites, and can be used to identify patterns from the website. Data mining is the process of examing big data and databases.
+12) What are 3 novel vizualization techniques for big data?
+	a) Word clouds
+	b) Networking diagrams
+	c) Correlation Matrices
