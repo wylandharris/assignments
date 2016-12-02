@@ -1,0 +1,6 @@
+setwd("/home/wharris/assignments/bigdata")
+aFile = readLines(Harris_4_Bama.txt)
+cat(aFile)
+library(tm)
+
+myCorpus = 
