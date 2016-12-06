@@ -1,0 +1,15 @@
+1) Network Analytics is a way to provide services to customers and plan for the 
+next generation of networks and services.
+
+2) Network analytics shows te connectivitey of things, for example, airplane 
+flights, conversations, etc.
+
+3)A node is a noun, like airports, people, places
+An edge is what connects 2 nodes(The topics), flights, conversations
+
+4)
+Plot the frequeny of places visited in a specific area
+measure the amount of conversations people have and with whom
+Plot the spread of diseases and their paths
+
+5)It can show connections and height of thickness can demonstrate frequency.
